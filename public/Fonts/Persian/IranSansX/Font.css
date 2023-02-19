@@ -1,0 +1,87 @@
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 100;
+	src: url('Fonts/Woff/IRANSansXFaNum-Thin.woff') format('woff'),
+		url('Fonts/Woff2/IRANSansXFaNum-Thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 200;
+	src: url('Fonts/Woff/IRANSansXFaNum-UltraLight.woff') format('woff'),
+		url('Fonts/Woff2/IRANSansXFaNum-UltraLight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 300;
+	src: url('Fonts/Woff/IRANSansXFaNum-Light.woff') format('woff'),
+		url('Fonts/Woff2/IRANSansXFaNum-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 500;
+	src: url('Fonts/Woff/IRANSansXFaNum-Medium.woff') format('woff'),
+		url('Fonts/Woff2/IRANSansXFaNum-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 600;
+	src: url('Fonts/Woff/IRANSansXFaNum-Medium.woff') format('woff'),
+		url('Fonts/Woff2/IRANSansXFaNum-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 800;
+	src: url('Fonts/Woff/IRANSansXFaNum-Medium.woff') format('woff'),
+		url('Fonts/Woff2/IRANSansXFaNum-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 900;
+	src: url('Fonts/Woff/IRANSansXFaNum-Black.woff') format('woff'),
+		url('Fonts/Woff2/IRANSansXFaNum-Black.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: bold;
+	src: url('Fonts/Woff/IRANSansXFaNum-Bold.woff') format('woff'),
+		url('Fonts/Woff2/IRANSansXFaNum-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: normal;
+	src: url('Fonts/Woff/IRANSansXFaNum-Regular.woff') format('woff'),
+		url('Fonts/Woff2/IRANSansXFaNum-Regular.woff2') format('woff2');
+}
+
+body {
+	font-family: IRANSansX !important;
+}
+
+.localized-number {
+	-moz-font-feature-settings: "ss02";
+	-webkit-font-feature-settings: "ss02";
+	font-feature-settings: "ss02";
+}
+
+.localized-monospace-number {
+	-moz-font-feature-settings: "ss03";
+	-webkit-font-feature-settings: "ss03";
+	font-feature-settings: "ss03";
+}
